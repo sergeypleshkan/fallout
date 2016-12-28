@@ -27,8 +27,7 @@ $attribute = [
     '1'
 ];
 
-while ($sum_attr <= 38) {
-    $sum_attr = array_sum($attribute);
+while (array_sum($attribute) <= 38) {
    
 //Create a variable with a random numbers on the problem statement
 $rand_skill = rand(0, 6); 
@@ -44,4 +43,4 @@ $rand_skill = rand(0, 6);
 $special = array_combine($skills, $attribute);  
     print_r($special);
 
-    ?>
+?>
